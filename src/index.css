@@ -1,0 +1,24 @@
+/* Importamos las fuentes desde Google Fonts */
+/* Montserrat: títulos — Inter: textos */
+/* display=swap significa que mientras carga la fuente, usa una del sistema */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap');
+
+/* Tailwind CSS */
+@import "tailwindcss";
+
+/* Scroll suave global */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Aplicamos las fuentes base a todo el sitio */
+body {
+  /* Inter para todo el texto por defecto */
+  font-family: 'Inter', sans-serif;
+}
+
+/* Clase utilitaria para títulos */
+/* La usaremos en todos los h1, h2, h3 importantes */
+.font-display {
+  font-family: 'Montserrat', sans-serif;
+}
